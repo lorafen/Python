@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HelloWorld", "HelloWorld\HelloWorld.pyproj", "{DCC769BB-720B-4BA9-874B-34B93BDD1DA2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Exercise1", "Exercise1\Exercise1.pyproj", "{9F83E5B3-86BA-4FAB-B9EF-DFEBBAA37756}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Exercise2", "Exercise2\Exercise2.pyproj", "{4875125F-A3A9-4B91-AC6B-D0A95E04EC5D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Exercise3", "Exercise3\Exercise3.pyproj", "{4182BF5E-3818-4A5A-9C20-BA4F175AAEC2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Exercise4", "Exercise4\Exercise4.pyproj", "{5EA0FF10-FA66-4603-86AB-87B4B766462B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCC769BB-720B-4BA9-874B-34B93BDD1DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC769BB-720B-4BA9-874B-34B93BDD1DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F83E5B3-86BA-4FAB-B9EF-DFEBBAA37756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F83E5B3-86BA-4FAB-B9EF-DFEBBAA37756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4875125F-A3A9-4B91-AC6B-D0A95E04EC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4875125F-A3A9-4B91-AC6B-D0A95E04EC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4182BF5E-3818-4A5A-9C20-BA4F175AAEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4182BF5E-3818-4A5A-9C20-BA4F175AAEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA0FF10-FA66-4603-86AB-87B4B766462B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA0FF10-FA66-4603-86AB-87B4B766462B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
