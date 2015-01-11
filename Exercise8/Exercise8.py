@@ -1,12 +1,12 @@
 # Standard deviation
 import math
 
-def odchylenieStandardowe(tablica, rozmiar):
+def odchylenieStandardowe(tablica):
     result = 0.0
     srednia = sredniaArytmetyczna(tablica)
-    for i in range(rozmiar):
-        result = math.sqrt(math.pow((float(tablica[i]) - srednia), 2))
-    return result
+    for i in tablica:
+        result += math.pow((float(i) - srednia), 2)
+    return math.sqrt(result)
 
 def sredniaArytmetyczna(tablica):
     sum = 0
@@ -22,5 +22,5 @@ table = []
 for i in range(sizeOfTable):
     table.append(int(input('Podaj liczbe: ')))
 
-result = odchylenieStandardowe(table, sizeOfTable)
+result = odchylenieStandardowe(table)
 print(result)
